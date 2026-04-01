@@ -1,0 +1,4 @@
+# Minimal placeholder pyproject.toml
+[project]
+name = "toolpickr"
+version = "0.0.0"
