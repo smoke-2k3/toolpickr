@@ -1,4 +1,10 @@
-# Minimal placeholder pyproject.toml
 [project]
 name = "toolpickr"
-version = "0.0.0"
+version = "1.0.0"
+requires-python = ">=3.9"
+dependencies = [
+    "faiss-cpu",
+    "numpy",
+]
+[project.optional-dependencies]
+gemini = ["google-genai"]
